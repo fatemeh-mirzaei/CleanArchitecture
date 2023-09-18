@@ -1,0 +1,45 @@
+﻿@model FilterUserDto
+@using Sample.Utilities;
+@{
+    ViewData["Title"] = "Users";
+}
+
+<h1>Users</h1>
+
+
+<div class="container">
+    <div class="row m-5">
+        <div class="col">
+            <a class="btn btn-info" href="/CreateUser">CreateUser</a>
+        </div>
+
+    </div>
+    <div class="col-8">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">FullName</th>
+                    <th scope="col">RegisterDate</th>
+                    <th scope="col">operation</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if(Model.Users.Any())
+                {
+                    foreach(var user in Model.Users)
+                    {
+                        <tr>
+                            <th scope="row">1</th>
+                            <td> @user.FullName</td>
+                            <td> @user.RegisterDate.ToShamsi()</td>
+                            <td>-</td>
+                        </tr>
+
+                    }
+                }
+               
+            </tbody>
+        </table>
+    </div>
+</div>
