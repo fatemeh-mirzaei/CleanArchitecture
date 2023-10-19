@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Sample.Application.Persistence.Contracts;
 using Sample.Domain;
+using Sample.Domain.Persistence.Contracts;
 using Sample.Utilities;
 
 namespace Sample.Infrastructure.Persistence.Repositories

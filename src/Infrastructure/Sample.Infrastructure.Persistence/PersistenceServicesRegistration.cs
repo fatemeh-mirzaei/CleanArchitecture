@@ -2,8 +2,8 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Sample.Application.Interfaces;
-using Sample.Application.Persistence.Contracts;
 using Sample.Application.Services;
+using Sample.Domain.Persistence.Contracts;
 using Sample.Infrastructure.Persistence.Repositories;
 
 namespace Sample.Infrastructure.Persistence

@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Sample.Application.DTOs;
 using Sample.Application.DTOs.Validation;
 using Sample.Application.Interfaces;
-using Sample.Application.Persistence.Contracts;
 using Sample.Domain;
+using Sample.Domain.Persistence.Contracts;
 using Sample.Utilities;
 
 namespace Sample.Application.Services

@@ -1,6 +1,4 @@
-﻿using Sample.Domain;
-
-namespace Sample.Application.Persistence.Contracts
+﻿namespace Sample.Domain.Persistence.Contracts
 {
     public interface IGenericRepository<TEntity> where TEntity : class, IBaseDomainEntity
     {

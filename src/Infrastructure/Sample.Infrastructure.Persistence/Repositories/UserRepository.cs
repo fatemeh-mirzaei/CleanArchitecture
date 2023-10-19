@@ -1,5 +1,5 @@
-﻿using Sample.Application.Persistence.Contracts;
-using Sample.Domain;
+﻿using Sample.Domain;
+using Sample.Domain.Persistence.Contracts;
 
 namespace Sample.Infrastructure.Persistence.Repositories
 {
