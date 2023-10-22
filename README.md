@@ -7,4 +7,4 @@ This project is a complete code example of a clean architecture implementation A
 ### Thanks to:
 
 - Mohammad Karimi - For his great teaching CleanArchitecture.
-- Mohammad Javad Ebrahimi -  For his great teaching AspNetCore-WebApi
+
